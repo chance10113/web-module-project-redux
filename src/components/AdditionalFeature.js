@@ -5,7 +5,7 @@ import { addFeature } from "../actions";
 const AdditionalFeature = (props) => {
   const handleClick = (e) => {
     e.preventDefault();
-    props.addFeature(props.feature);
+    props.addFeature(props.feature.id);
   };
   return (
     <li>
